@@ -114,9 +114,7 @@ The way it does this is by reading in a `Calendar()` object. `Calendar()` has a 
 
 The only tricky part here is the time. If you just do `component.get('dtstart')`, you get back a special object that looks something like this: `<icalendar.prop.vDDDTypes object at 0x1035d5090>`. That's because dates are special objects in ical and need to be [converted to datetimes](http://stackoverflow.com/questions/20937754/parsing-ical-feed-with-python-using-icalendar) with the .dt function.  
 
-So here are the results for that earlier entry that I get: 
-
-Here are the results for that earlier entry: 
+So here are the results for that earlier entry: 
 
 ```
 Summary:Why should I trust you? Explaining the predictions of machine-learning models 
