@@ -1,0 +1,51 @@
+Summary:Why should I trust you? Explaining the predictions of machine-learning models 
+Description: Presented by Carlos Guestrin (Dato). Despite widespread adoption, machine-learning models remain mostly black boxes, making it very difficult to understand the reasons behind a prediction. Such understanding is fundamentally important to assess trust in a model before we take actions based on a prediction or choose to deploy a new ML service. Carlos Guestrin offers a general approach for explaining predictions made by any ML model. 
+Location: Hall 1C 
+Time: Wed Sep 28 11:20-12:00 
+------
+ Summary:Apache Kafka: The rise of real-time data and stream processing 
+Description: Presented by Neha Narkhede (Confluent). Neha Narkhede explains how Apache Kafka serves as a foundation to streaming data applications that consume and process real-time data streams and introduces Kafka Connect, a system for capturing continuous data streams, and Kafka Streams, a lightweight stream processing library. Neha also describes the lessons companies like LinkedIn learned building massive streaming data architectures. 
+Location: 1 E 12/1 E 13 
+Time: Wed Sep 28 13:15-13:55 
+------
+ Summary:How the largest US healthcare dataset in Hadoop enables patient-level analytics in near real time 
+Description: Presented by Navdeep Alam (IMS Health). The need to find efficiencies in healthcare is becoming paramount as our society as well as the global population continues to grow and live longer. Navdeep Alam shares his experience and reviews current and emerging technologies in the marketplace that handle working with unbounded de-identified patient datasets in the billions of rows in an efficient and scalable way. 
+Location: 3D 08 
+Time: Wed Sep 28 14:05-14:45 
+------
+ Summary:Big data processing with Hadoop and Spark, the Uber way 
+Description: Presented by Praveen Murugesan (Uber Technologies Inc). Praveen Murugesan explains how Uber leverages Hadoop and Spark as the cornerstones of its data infrastructure. Praveen details the current data architecture at Uber and outlines some of the unique challenges with data processing Uber faced as well as its approach to solving some key issues in order to continue to power Uber's real-time marketplace. 
+Location: Hall 1B 
+Time: Wed Sep 28 14:55-15:35 
+------
+ Summary:Big data architectural patterns and best practices on AWS 
+Description: Presented by Siva Raghupathy (Amazon Web Services). Siva Raghupathy demonstrates how to use Hadoop innovations in conjunction with Amazon Web Services (cloud) innovations. 
+Location: 3D 12 
+Time: Wed Sep 28 16:35-17:15 
+------
+ Summary:The Netflix data platform: Now and in the future 
+Description: Presented by Kurt Brown (Netflix). The Netflix data platform is constantly evolving, but fundamentally it's an all-cloud platform at a massive scale (40 PB+ and over 700 billion new events per day) focused on empowering developers. Kurt Brown dives into the current technology landscape at Netflix and offers some thoughts on what the future holds. 
+Location: 1 E 07/1 E 08 
+Time: Wed Sep 28 17:25-18:05 
+------
+ Summary:Big data is a household word: How Procter & Gamble uses on-cluster Hadoop BI to give visual insight to hundreds of business users for everyday use 
+Description: Presented by terry mcfadden (P&G), Priyank Patel (Arcadia Data, Inc.). Terry Mcfadden and Priyank Patel discuss Procter and Gamble's three-year journey to enable production applications with on-cluster BI technology, exploring in detail the architecture challenges and choices made by the team along this journey. 
+Location: 3D 10 
+Time: Thu Sep 29 11:20-12:00 
+------
+ Summary:Apache Spark in fintech: Building fraud detection applications with distributed machine learning at Intel 
+Description: Presented by Yuhao Yang (Intel). Through collaboration with some of the top payments companies around the world, Intel has developed an end-to-end solution for building fraud detection applications. Yuhao Yang explains how Intel used and extended Spark DataFrames and ML Pipelines to build the tool chain for financial fraud detection and shares the lessons learned during development. 
+Location: Hall 1B 
+Time: Thu Sep 29 13:15-13:55 
+------
+ Summary:Spark Structured Streaming for machine learning 
+Description: Presented by Holden Karau (IBM), Seth Hendrickson (IBM). Holden Karau and Seth Hendrickson demonstrate how to do streaming machine learning using Spark's new Structured Streaming and walk attendees through creating their own streaming model. 
+Location: Hall 1B 
+Time: Thu Sep 29 14:05-14:45 
+------
+ Summary:Choice Hotels's journey to better understand its customers through self-service analytics 
+Description: Presented by Narasimhan Sampath (Choice Hotels International), Avinash Ramineni (Clairvoyant). Narasimhan Sampath and Avinash Ramineni share how Choice Hotels International used Spark Streaming, Kafka, Spark, and Spark SQL to create an advanced analytics platform that enables business users to be self-reliant by accessing the data they need from a variety of sources to generate customer insights and property dashboards and enable data-driven decisions with minimal IT engagement. 
+Location: Hall 1B 
+Time: Thu Sep 29 14:55-15:35 
+------
+ 

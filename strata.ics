@@ -1,0 +1,178 @@
+BEGIN:VCALENDAR
+X-WR-CALNAME:Strata + Hadoop World in New York 2016
+VERSION:2.0
+PRODID:Expectnation
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+DTEND;TZID=US/Eastern:20160928T120000
+DTSTART;TZID=US/Eastern:20160928T112000
+DTSTAMP:20160727T212110
+LOCATION:Hall 1C
+URL:http://conferences.oreilly.com/strata/hadoop-big-data-ny/public/sche
+ dule/detail/51777
+UID:http://conferences.oreilly.com/strata/hadoop-big-data-ny--s2016-09-2
+ 8-11:20--51777
+SUMMARY:Why should I trust you? Explaining the predictions of machine-le
+ arning models
+DESCRIPTION:Presented by Carlos Guestrin (Dato). Despite widespread adop
+ tion, machine-learning models remain mostly black boxes, making it very 
+ difficult to understand the reasons behind a prediction. Such understand
+ ing is fundamentally important to assess trust in a model before we take
+  actions based on a prediction or choose to deploy a new ML service. Car
+ los Guestrin offers a general approach for explaining predictions made b
+ y any ML model.
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=US/Eastern:20160928T135500
+DTSTART;TZID=US/Eastern:20160928T131500
+DTSTAMP:20160809T213953
+LOCATION:1 E 12/1 E 13
+URL:http://conferences.oreilly.com/strata/hadoop-big-data-ny/public/sche
+ dule/detail/51552
+UID:http://conferences.oreilly.com/strata/hadoop-big-data-ny--s2016-09-2
+ 8-13:15--51552
+SUMMARY:Apache Kafka: The rise of real-time data and stream processing
+DESCRIPTION:Presented by Neha Narkhede (Confluent). Neha Narkhede explai
+ ns how Apache Kafka serves as a foundation to streaming data application
+ s that consume and process real-time data streams and introduces Kafka C
+ onnect, a system for capturing continuous data streams, and Kafka Stream
+ s, a lightweight stream processing library. Neha also describes the less
+ ons companies like LinkedIn learned building massive streaming data arch
+ itectures.
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=US/Eastern:20160928T144500
+DTSTART;TZID=US/Eastern:20160928T140500
+DTSTAMP:20160810T165803
+LOCATION:3D 08
+URL:http://conferences.oreilly.com/strata/hadoop-big-data-ny/public/sche
+ dule/detail/50764
+UID:http://conferences.oreilly.com/strata/hadoop-big-data-ny--s2016-09-2
+ 8-14:05--50764
+SUMMARY:How the largest US healthcare dataset in Hadoop enables patient-
+ level analytics in near real time
+DESCRIPTION:Presented by Navdeep Alam (IMS Health). The need to find eff
+ iciencies in healthcare is becoming paramount as our society as well as 
+ the global population continues to grow and live longer. Navdeep Alam sh
+ ares his experience and reviews current and emerging technologies in the
+  marketplace that handle working with unbounded de-identified patient da
+ tasets in the billions of rows in an efficient and scalable way.
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=US/Eastern:20160928T153500
+DTSTART;TZID=US/Eastern:20160928T145500
+DTSTAMP:20160627T212210
+LOCATION:Hall 1B
+URL:http://conferences.oreilly.com/strata/hadoop-big-data-ny/public/sche
+ dule/detail/53161
+UID:http://conferences.oreilly.com/strata/hadoop-big-data-ny--s2016-09-2
+ 8-14:55--53161
+SUMMARY:Big data processing with Hadoop and Spark, the Uber way
+DESCRIPTION:Presented by Praveen Murugesan (Uber Technologies Inc). Prav
+ een Murugesan explains how Uber leverages Hadoop and Spark as the corner
+ stones of its data infrastructure. Praveen details the current data arch
+ itecture at Uber and outlines some of the unique challenges with data pr
+ ocessing Uber faced as well as its approach to solving some key issues i
+ n order to continue to power Uber's real-time marketplace.
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=US/Eastern:20160928T171500
+DTSTART;TZID=US/Eastern:20160928T163500
+DTSTAMP:20160810T224558
+LOCATION:3D 12
+URL:http://conferences.oreilly.com/strata/hadoop-big-data-ny/public/sche
+ dule/detail/52091
+UID:http://conferences.oreilly.com/strata/hadoop-big-data-ny--s2016-09-2
+ 8-16:35--52091
+SUMMARY:Big data architectural patterns and best practices on AWS
+DESCRIPTION:Presented by Siva Raghupathy (Amazon Web Services). Siva Rag
+ hupathy demonstrates how to use Hadoop innovations in conjunction with A
+ mazon Web Services (cloud) innovations.
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=US/Eastern:20160928T180500
+DTSTART;TZID=US/Eastern:20160928T172500
+DTSTAMP:20160821T151836
+LOCATION:1 E 07/1 E 08
+URL:http://conferences.oreilly.com/strata/hadoop-big-data-ny/public/sche
+ dule/detail/51855
+UID:http://conferences.oreilly.com/strata/hadoop-big-data-ny--s2016-09-2
+ 8-17:25--51855
+SUMMARY:The Netflix data platform: Now and in the future
+DESCRIPTION:Presented by Kurt Brown (Netflix). The Netflix data platform
+  is constantly evolving, but fundamentally it's an all-cloud platform at
+  a massive scale (40 PB+ and over 700 billion new events per day) focuse
+ d on empowering developers. Kurt Brown dives into the current technology
+  landscape at Netflix and offers some thoughts on what the future holds.
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=US/Eastern:20160929T120000
+DTSTART;TZID=US/Eastern:20160929T112000
+DTSTAMP:20160815T185048
+LOCATION:3D 10
+URL:http://conferences.oreilly.com/strata/hadoop-big-data-ny/public/sche
+ dule/detail/51978
+UID:http://conferences.oreilly.com/strata/hadoop-big-data-ny--s2016-09-2
+ 9-11:20--51978
+SUMMARY:Big data is a household word: How Procter & Gamble uses on-clust
+ er Hadoop BI to give visual insight to hundreds of business users for ev
+ eryday use
+DESCRIPTION:Presented by terry mcfadden (P&G), Priyank Patel (Arcadia Da
+ ta, Inc.). Terry Mcfadden and Priyank Patel discuss Procter and Gamble's
+  three-year journey to enable production applications with on-cluster BI
+  technology, exploring in detail the architecture challenges and choices
+  made by the team along this journey.
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=US/Eastern:20160929T135500
+DTSTART;TZID=US/Eastern:20160929T131500
+DTSTAMP:20160816T212233
+LOCATION:Hall 1B
+URL:http://conferences.oreilly.com/strata/hadoop-big-data-ny/public/sche
+ dule/detail/51656
+UID:http://conferences.oreilly.com/strata/hadoop-big-data-ny--s2016-09-2
+ 9-13:15--51656
+SUMMARY:Apache Spark in fintech: Building fraud detection applications w
+ ith distributed machine learning at Intel
+DESCRIPTION:Presented by Yuhao Yang (Intel). Through collaboration with 
+ some of the top payments companies around the world, Intel has developed
+  an end-to-end solution for building fraud detection applications. Yuhao
+  Yang explains how Intel used and extended Spark DataFrames and ML Pipel
+ ines to build the tool chain for financial fraud detection and shares th
+ e lessons learned during development.
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=US/Eastern:20160929T144500
+DTSTART;TZID=US/Eastern:20160929T140500
+DTSTAMP:20160817T170903
+LOCATION:Hall 1B
+URL:http://conferences.oreilly.com/strata/hadoop-big-data-ny/public/sche
+ dule/detail/54171
+UID:http://conferences.oreilly.com/strata/hadoop-big-data-ny--s2016-09-2
+ 9-14:05--54171
+SUMMARY:Spark Structured Streaming for machine learning
+DESCRIPTION:Presented by Holden Karau (IBM), Seth Hendrickson (IBM). Hol
+ den Karau and Seth Hendrickson demonstrate how to do streaming machine l
+ earning using Spark's new Structured Streaming and walk attendees throug
+ h creating their own streaming model.
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=US/Eastern:20160929T153500
+DTSTART;TZID=US/Eastern:20160929T145500
+DTSTAMP:20160817T224156
+LOCATION:Hall 1B
+URL:http://conferences.oreilly.com/strata/hadoop-big-data-ny/public/sche
+ dule/detail/52062
+UID:http://conferences.oreilly.com/strata/hadoop-big-data-ny--s2016-09-2
+ 9-14:55--52062
+SUMMARY:Choice Hotels's journey to better understand its customers throu
+ gh self-service analytics
+DESCRIPTION:Presented by Narasimhan Sampath (Choice Hotels International
+ ), Avinash Ramineni (Clairvoyant). Narasimhan Sampath and Avinash Ramine
+ ni share how Choice Hotels International used Spark Streaming, Kafka, Sp
+ ark, and Spark SQL to create an advanced analytics platform that enables
+  business users to be self-reliant by accessing the data they need from 
+ a variety of sources to generate customer insights and property dashboar
+ ds and enable data-driven decisions with minimal IT engagement.
+END:VEVENT
+END:VCALENDAR
