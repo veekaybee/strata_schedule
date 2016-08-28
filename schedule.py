@@ -1,5 +1,4 @@
 '''
-Python Version: 2.7
 Parse .ics file into human-readable text format
 Original data from 
 http://conferences.oreilly.com/strata/hadoop-big-data-ny/public/schedule/personal
@@ -8,6 +7,7 @@ Sorry PEP8
 
 from icalendar import Calendar, Event
 from datetime import datetime
+import glob, os
 
 
 # date formats for DTSTART and END
@@ -36,10 +36,14 @@ def parse_ics(infile):
 def ics_to_file(filename, events):
 	with open(filename, 'w') as f:
 		for e in events:
-			f.write(e)
+			f.write(e.encode('utf-8')) #include correct encoding
 
+def convert_file():
+	for file in glob.glob("*.ics"):
+		outfilename = os.path.splitext(file)[0]
+		infile = open(file, 'rb')
+		parsed_results = parse_ics(infile)
+		ics_to_file('%s.txt' % outfilename, parsed_results) 
 
 if __name__ == '__main__':
-	infile = open('strata.ics', 'rb') #TODO: offer command line input as next step
-	parsed_results = parse_ics(infile)
-	ics_to_file('strata_2016_cal.txt', parsed_results)
+	convert_file()
